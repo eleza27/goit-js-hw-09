@@ -13,3 +13,10 @@ const options = {
 };
 
 flatpickr('#datetime-picker', options);
+
+const startButRef = document.querySelector('[data-start]');
+console.log(startButRef);
+
+const startTimer = () => {};
+
+startButRef.addEventListener('click', startTimer);
